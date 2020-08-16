@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HolaMundo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2ts-Go-8qa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                        <subviews>
+                            <webView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" paginationMode="topToBottom" id="h8g-ls-94l">
+                                <rect key="frame" x="0.0" y="69" width="414" height="307"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </webView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z4d-jR-Yz7">
+                                <rect key="frame" x="-12" y="488" width="438" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jorge Alejandro Morgan Benita" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y1L-5m-AUj">
+                                        <rect key="frame" x="101" y="27" width="236" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00054728" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bgs-lo-8lg">
+                                        <rect key="frame" x="178" y="60" width="82" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDC-A3-AwM">
+                                        <rect key="frame" x="101" y="94" width="236" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <string key="text">*Algunas palabras no tienen resultado o esta incompleto, el problema es de la API de Wikipedia y no es responsabilidad de la App.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oZT-aq-zsn">
+                                <rect key="frame" x="-2" y="21" width="417" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wike, el diccionario digital de bolsillo " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Pp-oW-dwJ">
+                                        <rect key="frame" x="66" y="11" width="285" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="highlightedColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="V1.0" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ja1-E1-pf4">
+                                        <rect key="frame" x="200" y="32" width="17" height="10"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="8"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VBc-Kl-nfm">
+                                <rect key="frame" x="130" y="440" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="10Z-eJ-uoC"/>
+                                    <constraint firstAttribute="width" secondItem="VBc-Kl-nfm" secondAttribute="height" multiplier="26:5" id="2wv-9t-CS6"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="3K8-ef-aus"/>
+                                    <constraint firstAttribute="width" secondItem="VBc-Kl-nfm" secondAttribute="height" multiplier="26:5" id="FZQ-Bm-W4o"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="RTa-zz-Tch"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="156" id="WBx-Of-9MU"/>
+                                    <constraint firstAttribute="width" constant="156" id="e9f-uH-mUp"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="fYn-zF-aYI"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="156" id="lGH-MU-1Fe"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="156" id="nxr-yR-QQE"/>
+                                </constraints>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Buscar">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="thin"/>
+                                </state>
+                                <connections>
+                                    <action selector="buscar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3MH-IS-evm"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygJ-6X-9H4">
+                                <rect key="frame" x="84" y="390" width="245" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="h9n-fe-RSQ" firstAttribute="trailing" secondItem="VBc-Kl-nfm" secondAttribute="trailing" constant="129" id="2Za-ZD-wMQ"/>
+                            <constraint firstItem="h9n-fe-RSQ" firstAttribute="trailing" secondItem="VBc-Kl-nfm" secondAttribute="trailing" constant="129" id="3yb-VA-9sz"/>
+                            <constraint firstItem="h9n-fe-RSQ" firstAttribute="bottom" secondItem="VBc-Kl-nfm" secondAttribute="bottom" constant="306" id="Asi-vI-tYj"/>
+                            <constraint firstItem="h9n-fe-RSQ" firstAttribute="bottom" secondItem="VBc-Kl-nfm" secondAttribute="bottom" constant="306" id="FXY-Ae-1NL"/>
+                            <constraint firstItem="h9n-fe-RSQ" firstAttribute="bottom" secondItem="VBc-Kl-nfm" secondAttribute="bottom" constant="306" id="K0P-MB-jWQ"/>
+                            <constraint firstItem="VBc-Kl-nfm" firstAttribute="leading" secondItem="h9n-fe-RSQ" secondAttribute="leading" constant="129" id="grW-Se-73v"/>
+                            <constraint firstItem="h9n-fe-RSQ" firstAttribute="trailing" secondItem="VBc-Kl-nfm" secondAttribute="trailing" constant="129" id="gz9-Sy-zbi"/>
+                            <constraint firstItem="VBc-Kl-nfm" firstAttribute="leading" secondItem="h9n-fe-RSQ" secondAttribute="leading" constant="129" id="snG-ue-SaA"/>
+                            <constraint firstItem="h9n-fe-RSQ" firstAttribute="trailing" secondItem="VBc-Kl-nfm" secondAttribute="trailing" constant="129" id="uRa-Sf-I5P"/>
+                            <constraint firstItem="VBc-Kl-nfm" firstAttribute="leading" secondItem="h9n-fe-RSQ" secondAttribute="leading" constant="129" id="wx0-6u-Cvr"/>
+                            <constraint firstItem="VBc-Kl-nfm" firstAttribute="leading" secondItem="h9n-fe-RSQ" secondAttribute="leading" constant="129" id="zRq-Nb-LGo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h9n-fe-RSQ"/>
+                    </view>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="textoBuscar" destination="ygJ-6X-9H4" id="bDH-43-Gty"/>
+                        <outlet property="webView" destination="h8g-ls-94l" id="x0n-dB-jPo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169.56521739130437" y="24.456521739130437"/>
+        </scene>
+    </scenes>
+</document>
