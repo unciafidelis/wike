@@ -12,8 +12,8 @@
 		DA380F392333CBE2004C32DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA380F372333CBE2004C32DB /* Main.storyboard */; };
 		DA380F3B2333CBE3004C32DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA380F3A2333CBE3004C32DB /* Assets.xcassets */; };
 		DA380F3E2333CBE3004C32DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA380F3C2333CBE3004C32DB /* LaunchScreen.storyboard */; };
-		DA380F492333CBE3004C32DB /* HolaMundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA380F482333CBE3004C32DB /* HolaMundoTests.swift */; };
-		DA380F542333CBE3004C32DB /* HolaMundoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA380F532333CBE3004C32DB /* HolaMundoUITests.swift */; };
+		DA380F492333CBE3004C32DB /* WikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA380F482333CBE3004C32DB /* WikeTests.swift */; };
+		DA380F542333CBE3004C32DB /* WikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA380F532333CBE3004C32DB /* WikeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		DA380F3D2333CBE3004C32DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA380F3F2333CBE3004C32DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA380F442333CBE3004C32DB /* WikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA380F482333CBE3004C32DB /* HolaMundoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaMundoTests.swift; sourceTree = "<group>"; };
+		DA380F482333CBE3004C32DB /* WikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikeTests.swift; sourceTree = "<group>"; };
 		DA380F4A2333CBE3004C32DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA380F4F2333CBE3004C32DB /* WikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA380F532333CBE3004C32DB /* HolaMundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaMundoUITests.swift; sourceTree = "<group>"; };
+		DA380F532333CBE3004C32DB /* WikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikeUITests.swift; sourceTree = "<group>"; };
 		DA380F552333CBE3004C32DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +110,7 @@
 		DA380F472333CBE3004C32DB /* WikeTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA380F482333CBE3004C32DB /* HolaMundoTests.swift */,
+				DA380F482333CBE3004C32DB /* WikeTests.swift */,
 				DA380F4A2333CBE3004C32DB /* Info.plist */,
 			);
 			path = WikeTests;
@@ -119,7 +119,7 @@
 		DA380F522333CBE3004C32DB /* WikeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DA380F532333CBE3004C32DB /* HolaMundoUITests.swift */,
+				DA380F532333CBE3004C32DB /* WikeUITests.swift */,
 				DA380F552333CBE3004C32DB /* Info.plist */,
 			);
 			path = WikeUITests;
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA380F492333CBE3004C32DB /* HolaMundoTests.swift in Sources */,
+				DA380F492333CBE3004C32DB /* WikeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA380F542333CBE3004C32DB /* HolaMundoUITests.swift in Sources */,
+				DA380F542333CBE3004C32DB /* WikeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

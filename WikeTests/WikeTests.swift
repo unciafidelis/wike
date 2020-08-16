@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import HolaMundo
+@testable import Wike
 
 class HolaMundoTests: XCTestCase {
 
